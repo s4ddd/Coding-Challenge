@@ -68,7 +68,7 @@ void generateRepeats() {
 
 
 int main() {
-	// generateRandom();
+	generateRandom();
 	generateRepeats();
 	return 0;
 }

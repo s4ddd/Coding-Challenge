@@ -12,9 +12,9 @@
   - tests.cpp - generates tests for 'random' and 'repeat'
 - solution.cpp - solution for question 1
 
-#### Testing
+#### to test
 1) Compile and run tests/tests.cpp to create the test-input
-2) Run testing.sh
+2) Run tests/testing.sh
 
 
 ### q2 - questions 2 files
@@ -28,6 +28,6 @@
     - tests.cpp - generates tests
 - solution.cpp - solution for question 2
 
-#### Testing
+#### to test
 1) Compile and run tests/other/tests.cpp to create the test-input
-2) Run testing.sh
+2) Run tests/testing.sh

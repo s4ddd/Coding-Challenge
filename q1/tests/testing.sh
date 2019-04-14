@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# testing script that generates an output using solution.cpp and 
+# checks if that output is correct
+
+
 echo `g++ -o solution ../solution.cpp`
 echo `g++ -o check check.cpp`
 
