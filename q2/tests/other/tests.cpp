@@ -1,3 +1,9 @@
+/*
+ * Generates test input for the first and last LIM
+ * possible values of n and k and the corresponding correct output
+ * (NB: assuming that the brute force solution below is correct)
+ */
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -7,6 +13,9 @@
 #define MAXK 4000000000000000
 #define LIM 20
 
+// this brute force solution works under the assumption
+// that any two consecutive increments in money collected
+// will always exceed 1
 unsigned long long generateBruteForceSolution
 	(unsigned long long n, unsigned long long k) {
 	unsigned long long i, m = 0;
@@ -26,7 +35,8 @@ int main() {
 	unsigned long long n, k, i = 0;
 	unsigned long long fd = 0;
 	std::ofstream f;
-	std::string x;           
+	std::string x;
+
 	for (n = 1; n <= MAXN; ++n) {
 		if (n == LIM) n = MAXN-LIM;
 		for(k = 1; k <= MAXK; ++k) {
