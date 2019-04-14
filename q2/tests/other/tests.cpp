@@ -2,6 +2,8 @@
  * Generates test input for the first and last LIM
  * possible values of n and k and the corresponding correct output
  * (NB: assuming that the brute force solution below is correct)
+ * To compile: g++ -Wall -Werror -o tests tests.cpp
+ * To run: ./tests
  */
 
 #include <iostream>

@@ -1,3 +1,10 @@
+/*
+ * Solution implementation
+ * to compile: g++ -Wall -Werror -o solution solution.cpp
+ * to run: ./solution.cpp < [path to input.in file from current directory]
+*/
+
+
 #include <iostream>
 #include <math.h>
 

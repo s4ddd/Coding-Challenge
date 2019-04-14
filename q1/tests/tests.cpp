@@ -1,5 +1,7 @@
 /*
  * Script for generating tests
+ * to compile: g++ -Wall -Werror -o tests tests.cpp
+ * to run: ./tests
 */
 
 

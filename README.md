@@ -10,11 +10,29 @@
   - check.cpp - checks if the output for a given input is correct
   - testing.sh - script for running tests
   - tests.cpp - generates tests for 'random' and 'repeat'
+- question.md - problem statement
 - solution.cpp - solution for question 1
+
+#### to run
+`
+cd q1
+g++ -Wall -Werror -o solution solution.cpp
+./solution < [path to input file]
+`
 
 #### to test
 1) Compile and run tests/tests.cpp to create the test-input
+`
+cd tests
+g++ -Wall -Werror -o tests tests.cpp
+./tests
+`
+
 2) Run tests/testing.sh
+`
+chmod u+x testing.sh
+./testing.sh
+`
 
 
 ### q2 - questions 2 files
@@ -26,8 +44,26 @@
     - 1000 - contains input and output for tests 1000-1499
     - 1500 - contains input and output for tests 1500-1599
     - tests.cpp - generates tests
+- question.md - problem statement
 - solution.cpp - solution for question 2
+
+#### to run
+`
+cd q2
+g++ -Wall -Werror -o solution solution.cpp
+./solution < [path to input file]
+`
 
 #### to test
 1) Compile and run tests/other/tests.cpp to create the test-input
+`
+cd tests/other
+g++ -Wall -Werror -o tests tests.cpp
+./tests
+`
 2) Run tests/testing.sh
+`
+cd ..
+chmod u+x testing.sh
+./testing.sh
+`
